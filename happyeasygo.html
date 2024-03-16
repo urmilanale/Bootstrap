@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <!-------------------------- header --------------------------->
+    <header class="container-fluid mt-2 p-2 shadow sticky-top">
+        <div class="row mt-2">
+            <div class="col-2">
+                <img  src="images/happyeasygo.png" alt="">
+            </div>
+            <div class="col-sm-1 col-md-1 col-12">
+                <a href="" class="text-decoration-none font-weight-bold text-dark">Flight</a>
+            </div>
+            <div class="col-sm-1 col-md-1 col-12">
+                <a href="" class="text-decoration-none font-weight-bold text-dark">Hotel</a>
+            </div>
+            <div class="col-sm-1 col-md-1 col-12">
+                <a href="" class="text-decoration-none font-weight-bold text-dark">Offers</a>
+            </div>
+            <div class="col-sm-1 col-md-1 col-12 font-weight-bold">
+                <i class="fas fa-calendar-check text-success"></i>
+                Web CheckIn
+            </div>
+            <div class="col-sm-1 col-md-1 col-12">
+                <i class="fas fa-users text-success"></i>
+                Agent Programme
+
+            </div>
+            <div class="col-sm-1 col-md-1 col-12">
+                <i class="fas fa-rupee-sign p-2"></i>
+                <i class="fas fa-wallet p-2"></i>
+                 <i class="fas fa-headphones-alt p-2"></i>
+            </div>
+            <div class="col-sm-1 col-md-1 col-12">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-light border-0 text-dark" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Manage Trip
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">My Trips</a></li>
+                        <li><a class="dropdown-item" href="#">Print Ticket</a></li>
+                        <li><a class="dropdown-item" href="#">Web Check In</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-1 col-md-1 col-12"></div>
+            <div class="col-sm-1 col-md-1 col-12">
+                <button type="button" class="btn btn-light bg-none border-success text-success">Sign In</button>
+             </div>
+        </div>
+        
+    </header>
+    <!--------------------------- main -------------------------------->
+
+    <main>
+         <!-- <section class="container-fluid position-relative">
+            <div class="row">
+                
+                
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="form w-30 h-39 bg-primary">
+                            </div>
+                            <img src="happy1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="happy2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="happy3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="happy4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="happy5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="happy6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div> 
+                
+             </div>
+        </section>  -->
+
+        <!------------------------------ section-1 ------------------------------->
+        <section class="container">
+            <div class="row shadow-lg">
+                <div class="card  text-white">
+                    <img src="images/happy1.jpg" height="550" width="100" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title d-block w-50 bg-light">
+                                <p class="d-block w-20">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input m-1" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                        <label class="form-check-label text-dark" for="inlineRadio1">One Way</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input m-1" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                        <label class="form-check-label text-dark" for="inlineRadio2">Round Trip</label>
+                                    </div>
+                                    <form class="row g-3 p-3">
+                                        <div class="col-12">
+                                            <label for="inputAddress" class="form-label text-dark">From</label>
+                                            <input type="text" class="form-control" id="inputAddress" placeholder="New York - (NYC) | New York Metropolitan Area">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="inputAddress2" class="form-label text-dark">To</label>
+                                            <input type="text" class="form-control" id="inputAddress2" placeholder="Mumbai - (BOM) | Chhatrapati Shivaji Int'l Ai">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputEmail4" class="form-label text-dark">Departure Date</label>
+                                            <input type="date" class="form-control" id="inputEmail4">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputPassword4" class="form-label text-dark">Returning Date</label>
+                                            <input type="date" class="form-control" id="inputPassword4">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="inputAddress" class="form-label text-dark">Passanger & class</label>
+                                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary bg-warning border-0 h3">Happy Easy Search</button>
+                                        </div>
+                                    </form>
+                                </p>
+                            </h5>
+                            <p class="card-text"></p>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>             
+                </div>
+        </section>
+        <!------------------------------ section-2 ------------------------------->
+
+
+        <section class="container">
+            <div class="row justify-content-around mt-3 ">
+                <div class="col-sm-12 col-md-5 border shadow">
+                    <p>BEST PRICE GUARANTEED</p>
+                    <p>Find a lower price? We'll refund you 200% of the difference.</p>
+                </div>
+                <div class="col-sm-12 col-md-5 border shadow">
+                    <p>24*7 SUPPORT</p>
+                    <p>We are always here for you-reach us 24 hours a day,7 days a week.</p>
+                </div>
+            </div>
+        </section>
+ 
+        
+        <!------------------------------ section-3 ------------------------------->
+
+
+        <section class="container">
+            <div class="row m-4">
+                <h4 class="p-3 font-weight-bold fs-3">Travel Blog<span class="btn btn-primary bg-light text-success fs-5 float-end">View All</span></h4>
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card-group">
+                                    <div class="card col-12 col-md-3 m-3 shadow-lg">
+                                        <img src="images/h1.jpg" class="card-img-top d-block m-1" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">8 Tips For Great solo Travel Experience</h5>
+                                                <p>2021-03-01 17:48:26</p>
+                                            </div>
+                                    </div>
+                                    <div class="card col-12 col-md-3 m-3 shadow-lg">
+                                        <img src="images/h2.png" class="card-img-top d-block m-1" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Best Beaches In India To Explore In 2021</h5>
+                                                <p class="card-text">2021-02-26 19:11:12</p>
+                                            </div>
+                                    </div>
+                                    <div class="card col-12 col-md-3 m-3 shadow-lg">
+                                        <img src="images/h3.jpg" class="card-img-top d-block m-1" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Most Popular Museums In India</h5>
+                                                <p class="card-text">2021-02-18 18:11:34</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card-group">
+                                    <div class="card col-12 col-md-3 m-3 shadow-lg">
+                                        <img src="images/h7.jpg" class="card-img-top d-block m-1" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Best Place To Visit In And Around Chopta</h5>
+                                                <p class="card-text"> 2021-02-10 17:51:53</p>
+                                            </div>
+                                    </div>
+                                    <div class="card col-12 col-md-3 m-3 shadow-lg">
+                                        <img src="images/h5.png" class="card-img-top d-block m-1" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Places In India In Every College Student Must Visit</h5>
+                                                <p class="card-text">2021-02-03 13:02:39</p>
+                                            </div>
+                                    </div>
+                                    <div class="card col-12 col-md-3 m-3 shadow-lg">
+                                        <img src="images/h6.jpg" class="card-img-top d-block m-1" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Common Mistakes That travellers Make</h5>
+                                                <p class="card-text">2021-02-04 19:24:22</p>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+            </div>
+        </section>
+        <!------------------------------ section-4 ------------------------------->
+
+        <section class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 ">
+                    <img src="images/hppy.png" alt="" class="p-2 w-100">
+                </div>
+            </div>
+        </section>
+        <!------------------------------ section-5 ------------------------------->
+
+        <section class="container-fluid mt-3">
+            <div class="row p-4" style="background-color: #e0e0e0;">
+                <div class="col-sm-12 col-md-6 p-3">
+                    <h2>Sign up for Exclusive Email-only Coupons</h2>
+                    <h6>Exclusive access to coupons, special offers and promotions.</h6>
+                </div>
+                <div class="col-sm-12 col-md-5 p-3">
+                    <div class="input-group mb-3">
+                        <input type="tel" class="form-control" placeholder="Enter a valid number" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary text-light" type="button" id="button-addon2" style="background-color: rgb(227, 164, 40);;"> Send Me Deals</button>
+                    </div>
+                </div>
+        </section>
+                
+    </main>
+<!----------------------------------------- footer -------------------------------------------->
+    <footer class="container-fluid">
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-2 p-5 text-dark font-weight-bold">
+                    <p><h4>OUR PRODUCTS</h4>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Online Hotel Booking</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Domestic Airlines </a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Partner Programs </a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Online Flight Booking</a>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-2 p-5 text-dark">
+                    <p><h4>CORPORATE</h4>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">About Us</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Contact Us</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5"> Careers</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Blog</a>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Register Your Property</a>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-2 p-5 text-dark">
+                    <p><h4>LEGAL</h4>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">FAQs</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Terms & Conditions </a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Privacy</a>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-2 p-5 text-dark">
+                    <p><h4>MORE LINKS</h4>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Top Airline Routes</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Hotels In India </a></br>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-2 p-5 text-dark">
+                    <p><h4>Hot Destination</h4>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Flights to Delhi</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Flights to Mumbai </a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Flights to Bangalore</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Flights to Kolkata</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Flights to Hyderabad</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Flights to Chennai</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Flights to Pune</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Flights to Ahmedabad</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Flights to Patna</a>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-2 p-5">
+                    <p><h4>HOT AIRLINES</h4>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">IndiGo</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">GoAir</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">SpiceJet</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Air Asia</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Vistara</a></br>
+                        <a href="" class="text-decoration-none font-weight-bold text-secondary h5">Air India</a>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="row bg-light">
+                <div class="col-sm-12 col-md-4 p-5">
+                    <h4>Why HappyEasyGo?</h4>
+                    <p class="p-2">One of the leaders in the Indian travel industry, HappyEasyGo is the go-to platform for 
+                    your travel needs. Find the best online flight tickets booking and hotel booking deals,
+                    and save money every time you hit the road for business or leisure. Visit the website, or 
+                    download the iOS or Android HappyEasyGo travel app to book on-the-go. Registration Reward, 
+                    HEG Coupon, exclusive coupons for air ticket and hotel discounts, user-friendly interface and 
+                    secure payments channel will help you enjoy a seamless cheap flights and hotels booking experience.</p>
+                    <h4 class="p-2">Follow Us</h4>
+                    <p>
+                    <i class="fab fa-facebook text-success p-2"></i>
+                    <i class="fab fa-instagram text-success p-2"></i>
+                    <i class="fab fa-twitter text-success p-2"></i>
+                    <i class="fab fa-telegram text-success p-2"></i>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 p-5">
+                    <h4>Flight Booking with HappyEasyGo</h4>
+                        <p class="p-2">In a short span, HappyEasyGo has become a frontrunner in the online flight booking space.
+                        On a daily basis, thousands of travellers book cheap airline tickets with HappyEasyGo and 
+                        score the lowest airfares in India. The success of HappyEasyGo in the flight booking 
+                        industry does not only stem from its unbelievable deals and offers on international and 
+                        domestic air tickets, but also the convenience of online booking. If you are planning to 
+                        travel soon, then give HappyEasyGo a shot and immerse yourself in a flight booking experience
+                        that stands out.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 p-5">
+                    <h4>Hotel Booking with HappyEasyGo</h4>
+                        <p class="p-2">Stop spending hours on the internet, scouting the best hotel booking offer, and visit
+                        HappyEasyGo for guaranteed best prices for hotel rooms. From budget to luxury, choose
+                        the hotel category that suits you the best and pick your accommodation from an array of
+                        options. Whether you are going on an adventure trip or heading out on business, HappyEasyGo
+                        has the perfect hotel for you. So, what are you waiting for? Book now!</p>
+                        <h4 class="p-3">Download Our Mobile Apps</h4>
+                        <img class="p-3" src="images/googleplay.png" alt=""><span class="p-2"><img src="images/appstore.png" alt=""></span>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid shadow-sm">
+            <div class="row p-2" style="background-color: #017959;">
+                <p class="text-center fs-6 text-light">Copyright &copy; 2016-2021 Happyeasygo Group. All rights reserved</p>
+                <p class="text-center fs-6 text-light">All product names, logos, brands, trademarks and registered trademarks are property of their respective owners.</p>
+            </div>
+        </section>
+        <section class="container-fluid shadow-sm">
+            <div class="row" style="background-color: #5cb1a6;">
+                <div class="col-2"></div>
+                    <div class="col-sm-12 col-md-3">
+                        <p class="p-3 text-light fs-5">Important Information</p>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <p class="p-3 text-light fs-5">Please check the latest Advisories & State-Wise Guidelines before travelling.</p>
+                    </div>
+                <div class="col-1"></div>
+                    <div class="col-sm-12 col-md-3">
+                        <button class="btn btn-primary p-2 m-3 bg-light text-dark">Show More</button>
+                    </div>
+            </div>     
+        </section>
+
+
+
+    </footer>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  
+    
+</body>
+</html>
