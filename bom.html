@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Document</title>
+    <style type="text/css">
+         .btn:hover{
+             background-color: skyblue;
+             color: white;
+            }
+            .img:hover{
+                background-color: cadetblue;
+             }
+             .btn1:hover{
+                background-color: darkcyan;
+                color: #fff;
+             }
+             .btn1{
+                 background-color: white;
+                 border-left: 2px solid turquoise;
+                 border-top: 1px dashed gray;
+                 border-radius: 1px dashed gray;
+                 border-right: 1px dashed gray;
+
+             }
+           .logo{
+               width: 280px;
+               height: 100px;
+           }
+           .card-img{
+               width: 300px;
+               height: 200px;
+           }
+           .para{
+                background-color: black;
+               opacity: 0.7;
+               
+               
+           }
+            
+      
+    </style>
+</head>
+<body>
+<!------------------------- header ---------------------------------->
+    <header>
+        <section class="container-fluid bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-7">
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item bg-primary">
+                                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#">Locate Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#">Careers</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                    <input class="form-control me-2 text-light border-0" style="background-color: rgb(35, 35, 88);" type="search" placeholder="Type here to Search.." aria-label="Search">
+                                        <button class="btn btn-outline-none text-light" style="background-color: rgb(46, 46, 134);"  type="submit"><i class="fas fa-search"></i></button>
+                                </form>
+                            </div>
+                        </nav>        
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                       <nav class="navbar navbar-dark bg-dark float-end">
+                            <form class="container-fluid justify-content-start">
+                                <button class="btn btn-outline-secondary bg-primary text-light me-2" type="button">A-</button>
+                                <button class="btn btn-outline-secondary bg-primary text-light me-2" type="button">A</button>
+                                <button class="btn btn-outline-secondary bg-primary text-light me-2" type="button">A+</button>
+                                <i class="fas fa-toggle-on text-light fs-3 me-2"></i>
+                                <button class="btn btn-outline-secondary text-light me-2" type="button">English</button>
+                            </form>
+                        </nav>
+                    </div>
+                </div>
+             </div>
+        </section>
+        <section class="container-fluid bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-2">
+                        <img src="images/bomlogo.png" class="logo" alt="">
+                    </div>
+                    <div class="col-sm-6 col-md-9 mt-4">
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-dark float-end">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-light" aria-current="page" href="#">Personal</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#">Corporate</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#">MSME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#">Agriculture</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#">NRI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#">Treasury</a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                <button class="btn btn-primary"><i class="fas fa-unlock-alt p-1"></i>Log-In</button>     
+                                </form>
+                            </div>
+                        </nav>        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+<!-- ----------------------main -------------------------------------->
+    <main>
+        <section class="container-fluid">
+            <div class="row">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/bom11.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/bom22.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/bom33.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/bom44.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/bom55.png" class="d-block w-100" alt="...">
+                                </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                </div>
+            </div>
+        </section>
+        <section class="container shadow-sm mt-2">
+            <div class="row">
+                <div class="col-3">
+                    <p class="fs-1 p-2">What Are You<h1 class="text-secondary">Looking For?</h1></p>
+                </div>
+                <div class="col-9 p-3">
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">HOME LOAN</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">CAR LOAN</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">GOLD LOAN AGAINST ORNAMENTS</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">DEPOSITE INTEREST RATE</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">EMI CALCULATOR</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">LOAN INTEREST RATE</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">DOWNLOAD FORMS</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">HELPLINE</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">BOM CREDIT CARDS</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">NETC-FASTTAG</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">ONLINE SAVING ACCOUNT</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">CO-LENDING(DIGITAL LENDING)</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <p class="fs-1 p-2">Ancillary<h1 class="text-secondary">Products</h1></p>
+                </div>
+                <div class="col-9 p-3">
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">PPF SCHEME</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">LC-BG CONFORMATION</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">INSURANCE</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">EQUITY TRADING SERVICES</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">LOCKERS</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">SOVEREIGN GOLD BOND SCHEME</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">METCO-TRUSTEE CO</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">SENIOR CITIZEN SAAVING SCHEME</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">SUKANYA SAMRIDDI YOJANA</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">ATAL PENSION YOJANA</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">NATIONAL PENSION SYSTEM</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">DOORSTEP BANKING SYSTEM</button>
+                    <button class="btn btn-none border text-secondary pt-2 mt-2 border-info">CENTRAL GOVERNMENT PENSIONER CORNER</button>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="row bg-light">
+                <div class="col-sm-12 col-md-7 pt-3">
+                    <h3>Photo Gallary</h3>
+                    <div class="d-flex">
+                        <div class="card bg-none text-white">
+                            <img images/="images/bom.png" class="card-img1" alt="...">
+                                <div class="card-img-overlay">
+                                    <p class="para p-1">Shri A S Rajeev MD & CEO</br>inaugurating New Cherlapally Branch</p>
+                                </div>
+                            </div>
+                            <div class="card bg-none text-white">
+                            <img src="images/bom1.png" class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                    <p class="para p-1"> Business Developement Officers</br>Concalve on 24 & 25th JAn 2021</p>
+                                </div>
+                            </div>
+                             <div class="card bg-none text-white">
+                            <img src="bom2.png" class="card-img" alt="...">
+                                <div class="card-img-overlay ">
+                                    <p class="para p-1"> Launch of State Focused Paper of </br>NABARD for the FY-2021-2022</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="card bg-none text-white">
+                                    <img src="bom3.png" class="card-img" alt="...">
+                                        <div class="card-img-overlay">
+                                            <p class="para p-1">Financial Results for the quarters &</br>nine months ended 31 december</p>
+                                        </div>
+                                </div>
+                            <div class="card bg-none text-white">
+                                <img src="images/bom4.png" class="card-img" alt="...">
+                                    <div class="card-img-overlay">
+                                        <p class="para p-1">Shri A S Rajeev MD & CEO at</br>MSME Customer Meet Nagpur</p>
+                                    </div>
+                            </div>
+                            <div class="card bg-none text-white">
+                                <img src="images/bom5.png" class="card-img" alt="...">
+                                    <div class="card-img-overlay">
+                                        <p class="para p-1">inauguration of the new permises at Dapodi Branch Pune</p>
+                                    </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-sm-12 col-md-5 pt-3">
+                    <h3>From The Desk Of Top Management</h3>
+                    <img src="images/images/images/bom6.png" style="width: 700px; height: 400px;" alt="">
+                 </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 mt-3 shadow-sm">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/images/a1.png" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/images/a2.png" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/images/a3.png" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 mt-3 shadow-sm">
+                    <h3 class="p-2">SLBC Maharashtra</h3>
+                     <button class="btn1 btn-none w-100 text-start p-2">About Us<span class="float-end"><i class="fas fa-angle-right"></i></span></button>
+                     <button class="btn1 btn-none w-100 text-start p-2 mt-1">Banking Network<span class="float-end"><i class="fas fa-angle-right"></i></span></button>
+                     <button class="btn1 btn-none w-100 text-start p-2 mt-1">Data Submission<span class="float-end"><i class="fas fa-angle-right"></i></span></button>
+                     <button class="btn1 btn-none w-100 text-start p-2 mt-1">Financial Inclusion<span class="float-end"><i class="fas fa-angle-right"></i></span></button>
+                     <button class="btn1 btn-none w-100 text-start p-2 mt-1">Gove Sponsored Programee<span class="float-end"><i class="fas fa-angle-right"></i></span></button>
+                     <button class="btn1 btn-none w-100 text-start p-2 mt-1">Lead Bank Scheme<span class="float-end"><i class="fas fa-angle-right"></i></span></button>
+                     <button class="btn1 btn-none w-100 text-start p-2 mt-1">Photo Gallary<span class="float-end"><i class="fas fa-angle-right"></i></span></button>
+                     <button class="btn1 btn-none w-100 text-start p-2 mt-1">SLBC Meetings<span class="float-end"><i class="fas fa-angle-right"></i></span></button>
+                     <button class="btn1 btn-none w-100 text-start p-2 mt-1">State Profiles<span class="float-end"><i class="fas fa-angle-right"></i></span></button>
+                     <button class="btn1 btn-none w-100 text-start p-2 mt-1">Stateful Links<span class="float-end"><i class="fas fa-angle-right"></i></span></button>
+                     <button class="btn1 btn-none w-100 text-start p-2 mt-1">Miscellaneous<span class="float-end"><i class="fas fa-angle-right"></i></span></button>
+                </div>
+                <div class="col-sm-12 col-md-4 mt-3 shadow-sm">
+                    <h3 class="p-2">Offers For You</h3>
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/b1.png" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                        </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/b2.png" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                        </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/b3.png" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                        </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <h5 class="float-end text-info fw-bolder">All Offers<span class="p-1"><i class="fas fa-chevron-circle-right"></i></span></h5>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-2 text-center p-4" style="background-color: rgb(41, 41, 97);"><i class="fas fa-file-invoice-dollar text-light fs-1"></i><h5 class="text-light p-2">Service Charges</h5></div>
+                <div class="col-sm-12 col-md-2 text-center p-4" style="background-color: rgb(20, 20, 90);"><i class="fas fa-info-circle text-light fs-1"></i><h5 class="text-light p-2">Public Information</h5></div>
+                <div class="col-sm-12 col-md-2 text-center p-4" style="background-color: rgb(41, 41, 97);"><i class="fas fa-images text-light fs-1"></i><h5 class="text-light p-2">Gallary</h5></div>
+                <div class="col-sm-12 col-md-2 text-center p-4" style="background-color:rgb(20, 20, 90);"><i class="fas fa-handshake text-light fs-1"></i><h5 class="text-light p-2">Social Activity</h5></div>
+                <div class="col-sm-12 col-md-2 text-center p-4" style="background-color: rgb(41, 41, 97);"><i class="fas fa-home text-light fs-1"></i><h5 class="text-light p-2">Asset For Sale</h5></div>
+                <div class="col-sm-12 col-md-2 text-center p-4" style="background-color: rgb(20, 20, 90);"><i class="fas fa-gavel text-light fs-1"></i><h5 class="text-light p-2">Tenders</h5></div>
+                
+            </div>
+
+        </section>
+        <section class="container-fluid" style="background-color: rgb(41, 41, 224);">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-sm-12 col-md-3 text-left p-4">
+                    <h5 class="text-light fw-bolder">Disclosure</h5>
+                    <p class="text-light">Basel II Disclosure<span class="p-3 text-light">Basel III Disclosure</span></p>
+                    <h5 class="text-light fw-bolder">Compliance</h5>
+                    <p class="text-light">RTI<span class="p-3 text-light">Replies To RTI Applications</span></p>
+                    <p class="text-light">BCSBI<span class="p-3 text-light">Citizen Charter</span></p>
+                    <h5 class="text-light fw-bolder">EKYC</h5>
+                    <p class="text-light">Is your bank account KYC?</p>
+                    <h5 class="text-light">Bank Willful Defaulters</h5>
+                    <h5 class="text-light">State Wise Holidays</h5>
+                </div>
+                <div class="col-sm-12 col-md-3 bg-primary">
+                    <h5 class="fw-bolder text-light pt-3">Get In Touch</h5>
+                    <p class="text-light">Bank Of Maharashtra Head Office Lokmangal,1501,Shivajinagar,Pune-411005
+                        020-25532728,25524501-12
+                    </p>
+                    <p><i class="fab fa-facebook-square fs-3 p-2 text-light"></i>
+                    <i class="fab fa-instagram-square fs-3 p-2 text-light"></i>
+                    <i class="fab fa-twitter-square fs-3 p-2 text-light"></i>
+                    <i class="fab fa-linkedin fs-3 p-2 text-light"></i>
+                    <i class="fab fa-pinterest-square fs-3 p-2 text-light"></i>
+                    <i class="fab fa-youtube-square fs-3 p-2 text-light"></i></p>
+                    <h5 class="fw-bolder text-light">Disclamer</h5>
+                    <p class="text-light pt-2">Important:Bank of Maharashtra never asks for Bank account details for any purpose throught
+                        phone call/email/SMS</br>Bank apples to all customers not to respond to such a phone call/email/SMS
+                        and not to share their bank account details with any one for any purpose.Never share your CW/PIN
+                        No.of Debit/Credit card to anyone.
+                    </p>
+
+                </div>
+                <div class="col-1"></div>
+                <div class="col-sm-12 col-md-4 p-4">
+                    <h5 class="text-light fw-bolder">Financial Inclusion/Pradhanmantri Yojana</h5>
+                    <p class="text-light">PMJDY<span class="p-3 text-light">PMRY Subsidy Claim 07-08</span></p>
+                    <p class="text-light">PMJDY FAQs<span class="p-3 text-light">Best Performing BC Agents</span></p>
+                    
+                    <h5 class="text-light fw-bolder">Employee Corner</h5>
+                    <p class="text-light">Reservation Roster<span class="p-3 text-light">Retired Employee's Corner</span></p>
+                    <p class="text-light">Staff pension</p>
+                     <p class="text-light">Life Certificate Format for Staff Pensioner</p>
+                    <p class="text-light">Bank Employee's Pension Revision Of Dearness Relief</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="container-fluid bg-primary">
+            <div class="row">
+                <p class="text-light p-1 fw-bolder ml-4">&copy;2020 Bank Of Maharashtra.All Rights Reserved.<span class="float-end p-1 fw-bolder text-light">General Terms & Conditions</span></p>
+            </div>
+        </section>
+         
+    </main>
+    
+<!-- ---------------------------footer------------------------------ -->
+    <footer>
+
+    </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
+</html>
